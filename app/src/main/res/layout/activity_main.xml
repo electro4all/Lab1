@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/et_input1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Эхний тоог оруул..." />
+    <EditText
+        android:id="@+id/et_input2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Дараагийн тоог оруул..." />
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" android:text="+" />
+    <Button
+        android:id="@+id/btn_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" android:text="-" />
+    <Button
+        android:id="@+id/btn_multi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" android:text="*" />
+    <Button
+        android:id="@+id/btn_div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" android:text="/" />
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:textStyle="bold"
+        android:textSize="30dp" android:textColor="#ff0000"
+        android:text="Хариу : 0"/>
+</LinearLayout>
